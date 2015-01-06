@@ -18,7 +18,6 @@ then create it under "WEB-INF". Then within "classes" folder put your copied "co
         <servlet-name>Servlet Name</servlet-name>
         <servlet-class>Servlet Class details like ..com.x.x....classname</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>Servlet Name</servlet-name>
         <url-pattern>/Servlet Name</url-pattern>
