@@ -1,0 +1,39 @@
+<html>
+	<body>
+		<form action="POSTExample" method="GET">
+			First Name: <input type="text" name="first_name">
+			<br />
+			Last Name: <input type="text" name="last_name" />
+			<input type="submit" value="Submit" />
+		</form>
+		
+		<!--div id="NameDetails"> Name Details:<button> Click Here </button> </div-->
+		
+		<!--you can't use JSONP for fetching html data -->
+		<!--script>
+				function insertReply(content) {
+				    document.getElementById('NameDetails').innerHTML = content;
+				}
+				
+				// create script element
+				var script = document.createElement('script');
+				// assing src with callback name
+				script.src = 'http://localhost:8081/POSTExample?first_name=Sourabrata&last_name=Mukherjee';
+				// insert script to document and load content
+				document.body.appendChild(script);
+		</script-->
+		
+		<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script>
+				$(document).ready(function(){
+				  $("button").click(function(){
+				    $.ajax({url:"http://localhost:8081/POSTExample?first_name=Sourabrata&last_name=Mukherjee",success:function(result){
+				    	$("button").remove();
+				      $("#NameDetails").html(result);
+				    }});
+				  });
+				});
+		</script-->
+		
+	</body>
+</html>
