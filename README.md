@@ -1,6 +1,6 @@
 Servlet_Basics
 ==============
-It will conatins few basics examples and a theory to start with Servlet.
+It conatins few basics examples and a theory to start with Servlet.
 For details please visit "http://www.tutorialspoint.com/servlets/index.htm".
 -------------------------------------------------------------------------
 a. Install jdk.
@@ -24,4 +24,4 @@ then create it under "WEB-INF". Then within "classes" folder put your copied "co
 </servlet-mapping>
   now access it through the url "http://localhost:8080/your servlet name".
 3. If you find any html in the list that i have given...then put it in " <Tomcat-installation-directory>/webapps/ROOT/put html here".
-now access it like this " http://localhost:8080/your html name.html.
+now access it like this " http://localhost:8080/yourhtmlname.html.
